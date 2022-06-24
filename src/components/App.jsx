@@ -3,6 +3,7 @@ import Addition from "./Addition";
 import Substraction from "./Substraction";
 import Multiplication from "./Multiplication";
 import Division from "./Division";
+import Clear from "./Clear";
 import PreventRefresh from "./PreventRefresh";
 
 function App() {
@@ -60,10 +61,17 @@ function App() {
             />
             <br />
             <br />
-            <input className="clear-btn" type="reset" value="Clear" />
+            <input
+              className="clear-btn"
+              type="reset"
+              onClick={Clear}
+              value="Clear"
+            />
           </form>
-          <p>Answer:</p>
-          <p id="answer"></p>
+          <div className="answer-sec">
+            <p>Answer:</p>
+            <p id="answer"></p>
+          </div>
         </center>
       </div>
     </div>

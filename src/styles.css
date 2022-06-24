@@ -1,0 +1,102 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #212121;
+  color: white;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+}
+
+.submit-2 {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 100%;
+  color: orangered;
+  background: black;
+}
+
+.submit-2:hover {
+  background-color: orange;
+  color: black;
+}
+
+#input-1,
+#input-2 {
+  font-size: 20px;
+  width: 30%;
+  height: 30px;
+}
+
+#answer {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.clear-btn {
+  border-radius: 30%;
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: orangered;
+}
+
+.clear-btn:hover {
+  background-color: orange;
+  color: black;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  text-align: center;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}

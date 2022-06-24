@@ -1,2 +1,4 @@
 # CalculatorWebpageUsingReact.js
-Created with CodeSandbox
+
+My first simple project on react.js
+PS: still learning :)
